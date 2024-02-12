@@ -15,6 +15,8 @@ root.render(
 
 register();
 
+/*
+
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
@@ -24,9 +26,9 @@ window.addEventListener('beforeinstallprompt', (e) => {
   deferredPrompt = e;
   // Update UI to notify the user they can add to home screen
   // You can also implement your logic here to make the 'Install' button visible
-});
+}); */
 
-// Call this function on your 'Install' button event handler
+/* Call this function on your 'Install' button event handler
 const handleInstallClick = () => {
   // Show the prompt
   if (deferredPrompt) {
@@ -43,4 +45,4 @@ const handleInstallClick = () => {
 };
 
 // Make the function available globally to call it from anywhere, e.g. from a button's onClick event
-window.handleInstallClick = handleInstallClick;
+window.handleInstallClick = handleInstallClick; */
