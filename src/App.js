@@ -7,7 +7,7 @@ function App(){
 
     return(
         <div className="App">
-            <h1>Amatip To-do List App</h1>
+            <h1>Amatip IT Counter App</h1>
 
             <h2>Your count is now: {count}</h2>
             <button onClick={() => setcount(count + 1)}>Increase</button>
