@@ -62,7 +62,7 @@ ul {
 }
 
 p{
-    margin-top: 150px;
+    margin-top: 20px;
     font-size: 14px;
 }
 
@@ -75,4 +75,7 @@ p{
     background-color: red;
     color: white;
     
+}
+h2{
+    color: yellow;
 }
