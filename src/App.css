@@ -2,20 +2,65 @@ body{
     background-color: black;
 }
 
-.App{
+.App {
+    margin-top: 300px;
     text-align: center;
-    margin-top: 200px;
-    background-color: black;
-    color: white;
-    padding: 20px 0px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: black; /* Setting the background to black */
+    color: white; /* Ensuring the text is visible on the black background */
 }
 
-h2{
-    color: yellow;
+input[type='text'], input[type='number'] {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #555; /* Darker input fields for contrast */
+    color: white; /* Text color for visibility */
 }
 
 button {
-    padding: 10px 20px;
     margin: 10px;
-    font-size: 18px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode input[type='text'], .dark-mode input[type='number'] {
+    border: 1px solid #aaa;
+    background-color: #555;
+    color: white;
+}
+
+.dark-mode button {
+    background-color: #555;
+}
+
+.dark-mode button:hover {
+    background-color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+p{
+    margin-top: 200px;
+    font-size: 14px;
 }
