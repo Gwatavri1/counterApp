@@ -31,10 +31,14 @@ function App() {
             <h2>Your count is now: {count}</h2>
             <button onClick={() => handleChange(step)}>Increase</button>
             <button onClick={() => handleChange(-step)}>Decrease</button>
-            <button onClick={handleReset}>Reset</button>
+            <button className="reset" onClick={handleReset}>Reset</button>
             <input type="number" value={step} onChange={e => setStep(parseInt(e.target.value, 10))} />
             <button onClick={() => setDarkMode(prevMode => !prevMode)}>Toggle Dark/Light Mode</button>
             <div>
+                
+           
+            <button className="install" onClick={window.handleInstallClick}>Install App</button>
+
                 <p>Powered by Qudus Nafiu Olanrewaju (Code Master)</p>
             </div>
         </div>

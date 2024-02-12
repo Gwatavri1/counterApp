@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #08710e;
 }
 
 .dark-mode {
@@ -64,4 +64,15 @@ ul {
 p{
     margin-top: 150px;
     font-size: 14px;
+}
+
+.install{
+    background-color: orangered;
+    color: white;
+    margin-top: 140px;
+}
+.reset{
+    background-color: red;
+    color: white;
+    margin-top: 140px;
 }
